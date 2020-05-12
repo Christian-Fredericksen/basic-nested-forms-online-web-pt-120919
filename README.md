@@ -95,7 +95,7 @@ Last time, we first wrote our setter method in the model. This time let's modify
 our `Person` model to include an `accepts_nested_attributes_for :addresses`
 line.
 
-```ruby
+```ruby 
 class Person < ActiveRecord::Base
   has_many :addresses
   accepts_nested_attributes_for :addresses
